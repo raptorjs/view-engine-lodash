@@ -1,35 +1,35 @@
 {
-  "name": "view-engine-lodash",
-  "description": "Lo-Dash view engine",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patrick-steele-idem/view-engine-lodash.git"
-  },
-  "main": "lib/view-engine-lodash.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib/"
-  },
-  "keywords": [
-    "view-engine",
-    "lodash"
-  ],
-  "devDependencies": {
-    "chai": "~1.8.1",
-    "jshint": "^2.5.5",
-    "mocha": "~1.15.1",
-    "view-engine": "^1"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "license": "Apache License v2.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "lodash": "^2.4.1",
-    "write-file-atomic": "^1.1.0"
-  },
-  "browser": {
-    "./lib/loader.js": "./lib/loader-browser.js"
-  },
-  "version": "1.0.2"
+    "name": "view-engine-lodash",
+    "description": "Lo-Dash view engine",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrick-steele-idem/view-engine-lodash.git"
+    },
+    "main": "lib/view-engine-lodash.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib/"
+    },
+    "keywords": [
+        "view-engine",
+        "lodash"
+    ],
+    "devDependencies": {
+        "chai": "~1.8.1",
+        "jshint": "^2.5.5",
+        "mocha": "~1.15.1",
+        "view-engine": "^1"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "license": "Apache License v2.0",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "dependencies": {
+        "lodash": "^2.4.1",
+        "write-file-atomic": "^1.1.0"
+    },
+    "browser": {
+        "./lib/loader.js": "./lib/loader-browser.js"
+    },
+    "version": "1.0.3"
 }
